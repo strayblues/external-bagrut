@@ -1,0 +1,113 @@
+* {
+  direction: rtl;
+}
+
+body {
+  background-color: #f2e6d9;
+  font-family: 'Varela Round', sans-serif;
+}
+
+.banner {
+  background-color: #ff3c62;
+  color: white;
+}
+
+.container {
+  padding: 2rem;
+}
+
+h1, .sub {
+    font-family: 'Alef', sans-serif;
+}
+
+h1 {
+  color: white;
+  font-size: 120%;
+}
+
+h2 {
+  color: #cc304e;
+}
+
+.sub {
+  font-size: 170%;
+}
+
+.col-md-4, .col-md-3 {
+  float: right !important;
+}
+
+a {
+  font-size: 18px;
+  color: #822;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #f5b;
+}
+
+.btn-group-justified {
+  display: flex;
+  width: 100%;
+}
+
+.btn {
+  line-height: 2;
+  font-size: 1.25rem;
+}
+
+.btn, .btn-group {
+  flex: 0;
+}
+
+.btn-group {
+  background-color: black;
+}
+
+.modal .btn {
+  float: left;
+}
+
+.dropdown-menu {
+  right: auto;
+}
+
+.btn-primary {
+  color: #fff;
+  border-color: #111 !important;
+  background-color: #111 !important;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #444 !important;
+  border-color: #111;
+}
+
+.btn-primary:active {
+  background-color: #fff;
+}
+
+.btn-default {
+  background-color: #bbb;
+}
+
+.btn-default:hover {
+  background-color: #999 !important;
+}
+
+.modal-content {
+  background-color: #f2e6d9 !important;
+}
+
+.btn-sm {
+  margin-top: 2rem;
+  margin-right: 0.5rem;
+  line-height: 1.5;
+  font-size: 1rem;
+}
+
+.modal-footer {
+  clear: both;
+}
