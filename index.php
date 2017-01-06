@@ -7,7 +7,7 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <link rel="icon" href="favicon.ico">
     <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="author" content="Hagar Shilo">
     <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Alef" rel="stylesheet">
 
@@ -24,6 +24,9 @@
 
   </head>
   <body>
+    <div class="transparent-bg">
+      <img src="images/bun.jpg">
+    </div>
     <!-- Social Plugin -->
     <div id="fb-root"></div>
       <script>(function(d, s, id) {
