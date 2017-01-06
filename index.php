@@ -45,18 +45,6 @@
 <!-- Buffer container-->
 <div class="container"></div>
 
-<div class="container container-green">
-<p>
-  <?php
-    $p1=file_get_contents("paragraphs/intro-text.html");
-    echo $p1;
-  ?>
-</p>
-</div>
-
-<!-- Buffer container-->
-<div class="container"></div>
-
 <div class="container">
   <!-- 1st row of columns -->
   <div class="row">
@@ -180,6 +168,18 @@
   </div> <!-- /end of 3rd row -->
 
 </div> <!-- /container -->
+
+<!-- Buffer container-->
+<div class="container"></div>
+
+<div class="container container-green">
+<p>
+  <?php
+    $p1=file_get_contents("paragraphs/intro-text.html");
+    echo $p1;
+  ?>
+</p>
+</div>
 
 <!-- Buffer container-->
 <div class="container"></div>
