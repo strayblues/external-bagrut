@@ -42,6 +42,21 @@
   include("includes/head.html");
 ?>
 
+<!-- Buffer container-->
+<div class="container"></div>
+
+<div class="container container-green">
+<p>
+  <?php
+    $p1=file_get_contents("paragraphs/intro-text.html");
+    echo $p1;
+  ?>
+</p>
+</div>
+
+<!-- Buffer container-->
+<div class="container"></div>
+
 <div class="container">
   <!-- 1st row of columns -->
   <div class="row">
@@ -60,7 +75,7 @@
               ?>
             </p>
           </div>
-          <img>
+          <img src="images/poop.png" alt="poop emoji" width=20% class="img-fluid">
         </a>
         <!-- Anchor tag ends covering both image and caption -->
       </div>
@@ -166,9 +181,21 @@
 
 </div> <!-- /container -->
 
+<!-- Buffer container-->
+<div class="container"></div>
+
+<div class="container container-green">
+<p>
+  <?php
+    $p1=file_get_contents("paragraphs/contact.html");
+    echo $p1;
+  ?>
+</p>
+</div>
+
 <hr>
 
-<div class="container">
+<div class="container container-body">
 <footer>
   <p>&copy; הגר שילה 2016</p>
 </footer>

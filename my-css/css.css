@@ -3,14 +3,14 @@
 }
 
 body {
-  background-color: #f2e6d9;
+  background-color: #000;
   font-family: 'Varela Round', sans-serif;
 }
 
 .transparent-bg {
-  background-image: url("images/bun.jpg");
+/*  background-image: url("images/bun.jpg");*/
 	background-repeat: repeat;
-	opacity: 0.2;
+	opacity: 0.1;
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -21,13 +21,18 @@ body {
 }
 
 .banner {
-  background-color: #ff3c62;
-  color: white;
+  background-color: #fe3b62;
+  color: #eea9ad;
 }
 
 .container {
   padding: 2rem;
 }
+
+.container-body {
+  padding-top: 6rem;
+}
+
 
 h1, .sub {
     font-family: 'Alef', sans-serif;
@@ -51,13 +56,21 @@ h2 {
 }
 
 a {
-  font-size: 18px;
-  color: blue;
+  font-size: 14pt;
+  color: white;
 }
 
 a:hover {
   text-decoration: none;
   color: #f5b;
+}
+
+.on-green {
+  font-size: 12pt;
+}
+
+.on-green:hover {
+  color: black;
 }
 
 .btn-group-justified {
@@ -123,4 +136,9 @@ a:hover {
 
 .modal-footer {
   clear: both;
+}
+
+.container-green {
+  background-color: #a5cb3a;
+  color: black;
 }
