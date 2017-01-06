@@ -172,7 +172,7 @@
 <!-- Buffer container-->
 <div class="container"></div>
 
-<div class="container container-green">
+<div class="container container-green" id="intro-text">
 <p>
   <?php
     $p1=file_get_contents("paragraphs/intro-text.html");
