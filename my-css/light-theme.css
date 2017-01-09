@@ -1,0 +1,164 @@
+* {
+  direction: rtl;
+}
+
+body {
+  background-color: #cae6f7;
+  font-family: 'Varela Round', sans-serif;
+}
+
+.transparent-bg {
+/*  background-image: url("images/bun.jpg");*/
+	background-repeat: repeat;
+	opacity: 0.2;
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	filter: alpha(opacity=50);
+	z-index: -1;
+}
+
+.banner {
+  background-color: #124d72;
+  color: #5896bc;
+}
+
+.container {
+  padding: 2rem;
+}
+
+.container-body {
+  padding-top: 6rem;
+}
+
+
+h1, .sub {
+    font-family: 'Alef', sans-serif;
+}
+
+h1 {
+  color: #cae6f7;
+  font-size: 100%;
+}
+
+h2 {
+  color: #cc304e;
+}
+
+.sub {
+  font-size: 170%;
+}
+
+.col-md-4, .col-md-3 {
+  float: right !important;
+}
+
+a {
+  font-size: 14pt;
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #cc304e;
+}
+
+.on-green {
+  font-size: 12pt;
+  color: #cc304e;
+}
+
+.on-green:hover {
+  color: white;
+}
+
+.btn-group-justified {
+  display: flex;
+  width: 100%;
+}
+
+.btn {
+  line-height: 2;
+  font-size: 1.25rem;
+}
+
+.btn, .btn-group {
+  flex: 0;
+}
+
+.btn-group {
+  background-color: #111;
+}
+
+.modal .btn {
+  float: left;
+}
+
+.dropdown-menu {
+  right: auto;
+}
+
+.btn-primary {
+  color: #fff;
+  border-color: #111 !important;
+  background-color: #111 !important;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #444 !important;
+  border-color: #111;
+}
+
+.btn-primary:active {
+  background-color: #fff;
+}
+
+.btn-default {
+  background-color: #bbb;
+}
+
+.btn-default:hover {
+  background-color: #999 !important;
+}
+
+.modal-content {
+  background-color: #a5cb3a !important;
+}
+
+.btn-sm {
+  margin-top: 2rem;
+  margin-right: 0.5rem;
+  line-height: 1.5;
+  font-size: 1rem;
+}
+
+.modal-footer {
+  clear: both;
+}
+
+.container-green, .container-pink, .container-yellow {
+  color: black;
+}
+
+.container-green {
+  background-color: #a5cb3a;
+}
+
+.container-pink {
+  background-color: #fe3b62;
+}
+
+.container-yellow {
+  background-color: #ffda23;
+}
+
+.container-blue {
+  background-color: #6db8f9;
+}
+
+.container-purple {
+  background-color: #e176fc;
+}

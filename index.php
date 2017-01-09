@@ -26,7 +26,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="my-css/css.css" rel="stylesheet">
+    <link href="my-css/light-theme.css" rel="stylesheet">
     <!--
     <link href="my-css/my-css2.css" rel="stylesheet">
     -->
@@ -60,10 +60,10 @@
     <div class="col-md-6">
       <div class="thumbnail">
         <!-- Anchor tag covering both your caption and image -->
-        <a href="procedure.html">
+        <a href="procedure.php">
           <div>
             <h2>
-              איך עושים את זה?
+              התהליך
             </h2>
             <p>
               <?php
@@ -202,44 +202,17 @@
 </p>
 </div>
 
+<!-- Buffer container-->
+<div class="container container-body"></div>
+
 <hr>
 
-<div class="container container-body">
 <footer>
   <p>&copy; הגר שילה 2016</p>
 </footer>
 
 </div>
 
-
-    <?php
-
-    if ($_POST['submit']) {
-      if (!$_POST['name']){
-        $error="<br/>שכחת לכתוב את השם שלך. ";
-      }
-      if (!$_POST['email']){
-        $error.="<br/>חסרה כתובת המייל. ";
-      }
-      if (!$_POST['msg']){
-        $error.="<br/>לא כתבת את ההודעה. ";
-      }
-      if (!$_POST['check']){
-        $error.="<br/>נא לציין אם את/ה דג. ";
-      }
-      if ($error) {
-        $result="אופס! משהו לא הצליח: $error";
-      } else {
-          mail("strayblues@gmail.com", "Contact message",
-          "Name: ".$_POST['name'].
-          "Email: ".$_POST['email'].
-          "Message: ".$_POST['msg']);
-          {
-          $result="ההודעה נשלחה";
-          }
-      }
-    }
-    ?>
 
     <div class="modal fade" id="contact" role="dialog">
       <div class="modal-dialog">
