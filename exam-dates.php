@@ -34,53 +34,47 @@
   </head>
   <body>
     <div class="transparent-bg">
-      <img src="images/bun-small.jpg">
+      <img src="images/bun.jpg">
     </div>
 
 <!-- Navbar-->
 <?php
-  include("includes/head.html");
+  include("includes/head-sub.html");
 ?>
 
 <!-- Buffer container-->
-<div class="container"></div>
-
-<div class="container container-green" id="intro-text">
-<p>
-אפשר לשים פה משהו אם רוצים
-</p>
+<div class="container container-body">
+  <h3 class="pages">מועדי הבחינות</h3>
 </div>
 
-<!-- Buffer container-->
-<div class="container"></div>
-<div class="container container-pink">
-<p>
-אפשר לשים פה משהו אם רוצים
-</p>
-</div>
-
-<!-- Buffer container-->
-<div class="container"></div>
 <div class="container container-blue">
+<h4>מועדי חורף תשע״ז (2017)</h4>
 <p>
-אפשר לשים פה משהו אם רוצים
+<a href="http://cms.education.gov.il/NR/rdonlyres/9CE8F57D-5831-4981-980F-F8D450D3EAB1/212510/2019.pdf">לוח בחינות 2017 - תאריכים ושעות</a>
+<br>
 </p>
-</div>
-
-<!-- Buffer container-->
-<div class="container"></div>
-<div class="container container-purple">
 <p>
-אפשר לשים פה משהו אם רוצים
+<a href="http://cms.education.gov.il/NR/rdonlyres/9CE8F57D-5831-4981-980F-F8D450D3EAB1/212605/20191.pdf">לוח בחינות לנבחנים על פי תוכנית הרפורמה</a>
+<br>
+</p>
+
+<p>
+אם האתר לא מעודכן ואת מחפשת מועד מאוחר יותר, נסי ב<a href="http://cms.education.gov.il/EducationCMS/Units/Exams/BchinotBagrut/Moed/">אתר של אגף הבחינות</a>.
 </p>
 </div>
 
 <!-- Buffer container-->
 <div class="container"></div>
 <div class="container container-yellow">
-<p>
-אפשר לשים פה משהו אם רוצים
-</p>
+  <h4>מועדי קיץ תשע״ז (2017)</h4>
+  <p>
+  <a href="http://cms.education.gov.il/NR/rdonlyres/286ADB1C-71AD-4E88-8029-5783735820C8/212106/07092018.pdf">לוח מועדי קיץ
+  </a>
+  </p>
+  <p>
+  אם האתר לא מעודכן ואת מחפשת מועד מאוחר יותר, נסי ב<a href="http://cms.education.gov.il/EducationCMS/Units/Exams/BchinotBagrut/Moed/">אתר של אגף הבחינות</a>.
+  </p>
+
 </div>
 
 <!-- Buffer container-->

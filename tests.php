@@ -34,16 +34,18 @@
   </head>
   <body>
     <div class="transparent-bg">
-      <img src="images/bun-small.jpg">
+      <img src="images/bun.jpg">
     </div>
 
 <!-- Navbar-->
 <?php
-  include("includes/head.html");
+  include("includes/head-sub.html");
 ?>
 
 <!-- Buffer container-->
-<div class="container"></div>
+<div class="container container-body">
+  <h3 class="pages">שאלוני בגרות</h3>
+</div>
 
 <div class="container container-green" id="intro-text">
 <p>

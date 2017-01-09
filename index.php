@@ -34,7 +34,7 @@
   </head>
   <body>
     <div class="transparent-bg">
-      <img src="images/bun.jpg">
+<!--      <img src="images/bun-small.jpg">-->
     </div>
     <!-- Social Plugin -->
     <div id="fb-root"></div>
@@ -53,87 +53,21 @@
 
 <!-- Buffer container-->
 <div class="container"></div>
-
+<!-- 1st row for columns -->
 <div class="container">
-  <!-- 1st row of columns -->
-  <div class="row">
-    <div class="col-md-6">
-      <div class="thumbnail">
-        <!-- Anchor tag covering both your caption and image -->
-        <a href="procedure.php">
-          <div>
-            <h2>
-              התהליך
-            </h2>
-            <p>
-              <?php
-                $p2=file_get_contents("paragraphs/procedure.txt");
-                echo $p2;
-              ?>
-            </p>
-          </div>
-          <img src="images/poop.png" alt="poop emoji" width=20% class="img-fluid">
-        </a>
-        <!-- Anchor tag ends covering both image and caption -->
-      </div>
-    </div>
-
-    <div class="col-md-6">
-      <div class="thumbnail">
-        <!-- Anchor tag covering both your caption and image -->
-        <a href="exams.html">
-          <div>
-            <h2>
-              מבחנים לדוגמה
-            </h2>
-            <p>
-              <?php
-                $p1=file_get_contents("paragraphs/exams.txt");
-                echo $p1;
-              ?>
-            </p>
-          </div>
-          <img>
-        </a>
-        <!-- Anchor tag ends covering both image and caption -->
-      </div>
-    </div>
-  </div> <!-- /1st row -->
-
-  <div class="row">
-    <div class="col-md-6">
-      <div class="thumbnail">
-        <!-- Anchor tag covering both your caption and image -->
-        <a href="procedure.html">
-          <div>
-            <h2>
-              חומרי לימוד
-            </h2>
-            <p>
-              <?php
-                $p2=file_get_contents("paragraphs/study-materials.txt");
-                echo $p2;
-              ?>
-            </p>
-          </div>
-          <img>
-        </a>
-        <!-- Anchor tag ends covering both image and caption -->
-      </div>
-    </div>
-
-    <div class="col-md-6">
-      <div class="thumbnail">
+<div class="row">
+  <div class="col-md-6">
+    <div class="thumbnail">
       <!-- Anchor tag covering both your caption and image -->
-      <a href="exams.html">
+      <a href="procedure.html">
         <div>
           <h2>
-            לוח בחינות
+            חומרי לימוד
           </h2>
           <p>
             <?php
-              $p1=file_get_contents("paragraphs/exam-dates.txt");
-              echo $p1;
+              $p2=file_get_contents("paragraphs/study-materials.txt");
+              echo $p2;
             ?>
           </p>
         </div>
@@ -142,12 +76,74 @@
       <!-- Anchor tag ends covering both image and caption -->
     </div>
   </div>
-  </div> <!-- End of 2nd row -->
 
+  <div class="col-md-6">
+    <div class="thumbnail">
+    <!-- Anchor tag covering both your caption and image -->
+    <a href="exam-dates.php">
+      <div>
+        <h2>
+          לוח בחינות
+        </h2>
+        <p>
+          <?php
+            $p=file_get_contents("paragraphs/exam-dates.txt");
+            echo $p;
+          ?>
+        </p>
+      </div>
+      <img>
+    </a>
+    <!-- Anchor tag ends covering both image and caption -->
+  </div>
+</div>
+</div> <!-- End of 1st row -->
+  <!-- 2nd row of columns -->
+<div class="row">
+  <div class="col-md-6">
+    <div class="thumbnail thumbnail-mid">
+      <!-- Anchor tag covering both your caption and image -->
+      <a href="procedure.php">
+        <div>
+          <h2>
+            התהליך
+          </h2>
+          <p>
+            <?php
+              $p=file_get_contents("paragraphs/procedure.txt");
+              echo $p;
+            ?>
+          </p>
+        </div>
+<!--        <img src="images/poop.png" alt="poop emoji" width=20% class="img-fluid">-->
+      </a>
+      <!-- Anchor tag ends covering both image and caption -->
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="thumbnail thumbnail-mid">
+      <!-- Anchor tag covering both your caption and image -->
+      <a href="tests.php">
+        <div>
+          <h2>
+            מבחנים לדוגמה
+          </h2>
+          <p>
+            <?php
+              $p=file_get_contents("paragraphs/exams.txt");
+              echo $p;
+            ?>
+          </p>
+        </div>
+      </a>
+      <!-- Anchor tag ends covering both image and caption -->
+      </div>
+    </div>
+  </div> <!-- /2nd row -->
   <!-- 3rd row -->
   <div class="row">
     <div class="col-md-6">
-      <div class="thumbnail">
+      <div class="thumbnail thumbnail-mid">
         <h2>קהילה וירטואלית
         </h2>
         <!-- Facebook social plugin -->
@@ -155,17 +151,17 @@
       </div>
     </div>
     <div class="col-md-6">
-      <div class="thumbnail">
+      <div class="thumbnail thumbnail-mid">
         <!-- Anchor tag covering both your caption and image -->
         <a href="articles.html">
           <div>
             <h2>
-              כתבות וטורים
+              עצות והגיגים
             </h2>
             <p>
               <?php
-                $p1=file_get_contents("paragraphs/articles.txt");
-                echo $p1;
+                $p=file_get_contents("paragraphs/articles.txt");
+                echo $p;
               ?>
             </p>
           </div>
@@ -175,7 +171,6 @@
       </div>
     </div>
   </div> <!-- /end of 3rd row -->
-
 </div> <!-- /container -->
 
 <!-- Buffer container-->
@@ -184,8 +179,8 @@
 <div class="container container-green" id="intro-text">
 <p>
   <?php
-    $p1=file_get_contents("paragraphs/intro-text.html");
-    echo $p1;
+    $p=file_get_contents("paragraphs/intro-text.html");
+    echo $p;
   ?>
 </p>
 </div>
@@ -196,8 +191,8 @@
 <div class="container container-green">
 <p>
   <?php
-    $p1=file_get_contents("paragraphs/contact.html");
-    echo $p1;
+    $p=file_get_contents("paragraphs/contact.html");
+    echo $p;
   ?>
 </p>
 </div>
@@ -214,58 +209,6 @@
 </div>
 <footer class="footer"></footer>
 
-
-    <div class="modal fade" id="contact" role="dialog">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <form class="form-horizontal" method="post" action="index2.php" role="form">
-            <div class="modal-header">
-              <h4>יצירת קשר</h4>
-              <?php
-                echo $result;?>
-            </div>
-            <div class="modal-body">
-
-              <div class="form-group">
-                <div class="col-lg-12">
-                  <input type="text" name="name" class="form-control"
-                    id="contact-name" placeholder="שם מלא"
-                    value="<?php echo $_POST['name'];?>">
-                </div>
-              </div>
-
-              <div class="form-group">
-                <div class="col-lg-12">
-                  <input type="email" name="email" class="form-control"
-                    id="contact-email" placeholder="you@example.com"
-                    value="<?php echo $_POST['email'];?>">
-                </div>
-              </div>
-
-              <div class="form-group">
-                <div class="col-lg-12">
-                  <textarea class="form-control" rows="8" placeholder="הודעה..." name="msg"><?php
-                    echo $_POST['msg'];
-                  ?></textarea>
-                </div>
-              </div>
-
-              <div class="checkbox">
-                <label for="checkbox">
-                  <input type="checkbox" name="check">אני דג
-                </label>
-              </div>
-            </div>
-
-            <div class="modal-footer">
-              <button class="btn btn-primary btn-sm" type="submit" value="Submit" name="submit">שליחה</button>
-              <a class="btn btn-default btn-sm" data-dismiss="modal">ביטול</a>
-            </div>
-
-        </form>
-        </div>
-      </div>
-    </div>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->

@@ -8,8 +8,9 @@ body {
 }
 
 .transparent-bg {
-/*  background-image: url("images/bun.jpg");*/
-	background-repeat: repeat;
+  background-image: url("images/bun-small.jpg");
+/*	background-repeat: repeat;*/
+  background-repeat: repeat-y;
 	opacity: 0.2;
 	position: fixed;
 	top: 0;
@@ -45,6 +46,10 @@ h1 {
 
 h2 {
   color: #cc304e;
+}
+
+h4 {
+  margin-bottom: 1.75rem;
 }
 
 .sub {
@@ -139,7 +144,7 @@ a:hover {
   clear: both;
 }
 
-.container-green, .container-pink, .container-yellow {
+.container-green, .container-pink, .container-blue, .container-purple, .container-yellow {
   color: black;
 }
 
@@ -178,4 +183,12 @@ a:hover {
   height: 3rem;
   clear:both;
   padding-top:20px;
+}
+
+.pages {
+  color: black;
+}
+
+.thumbnail-mid {
+  margin-bottom: 2.5rem;
 }
