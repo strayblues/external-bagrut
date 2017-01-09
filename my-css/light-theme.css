@@ -162,3 +162,20 @@ a:hover {
 .container-purple {
   background-color: #e176fc;
 }
+
+#main {
+  overflow:auto;
+  padding-bottom:3rem; /* this needs to be bigger than footer height*/
+}
+
+#wrap {
+  min-height: 100%;
+}
+
+.footer {
+  position: relative;
+  margin-top: -3rem; /* negative value of footer height */
+  height: 3rem;
+  clear:both;
+  padding-top:20px;
+}

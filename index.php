@@ -207,11 +207,12 @@
 
 <hr>
 
-<footer>
-  <p>&copy; הגר שילה 2016</p>
-</footer>
-
+<div id="wrap">
+  <div id="main" class="container clear-top">
+    <p>&copy; הגר שילה 2016</p>
+  </div>
 </div>
+<footer class="footer"></footer>
 
 
     <div class="modal fade" id="contact" role="dialog">

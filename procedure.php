@@ -92,17 +92,17 @@
 </p>
 </div>
 
-
 <!-- Buffer container-->
 <div class="container container-body"></div>
 
 <hr>
 
-<footer>
-  <p>&copy; הגר שילה 2016</p>
-</footer>
-
+<div id="wrap">
+  <div id="main" class="container clear-top">
+    <p>&copy; הגר שילה 2016</p>
+  </div>
 </div>
+<footer class="footer"></footer>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
