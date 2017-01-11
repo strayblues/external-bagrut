@@ -39,7 +39,7 @@
 
 <!-- Navbar-->
 <?php
-  include("includes/head.html");
+  include("includes/head-sub.html");
 ?>
 
 <!-- Buffer container-->
