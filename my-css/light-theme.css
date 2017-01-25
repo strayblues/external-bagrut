@@ -8,17 +8,16 @@ body {
 }
 
 .transparent-bg {
-  background-image: url("images/bun-small.jpg");
-/*	background-repeat: repeat;*/
-  background-repeat: repeat-y;
+  background-image: url("../images/bun-small.jpg");
+	background-repeat: repeat;
 	opacity: 0.2;
 	position: fixed;
 	top: 0;
 	left: 0;
 	height: 100%;
 	width: 100%;
-	filter: alpha(opacity=50);
 	z-index: -1;
+  background-attachment: scroll;
 }
 
 .banner {

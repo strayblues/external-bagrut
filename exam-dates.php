@@ -17,7 +17,7 @@
   </head>
   <body>
     <div class="transparent-bg">
-      <img src="images/bun.jpg">
+
     </div>
 
 <!-- Navbar-->

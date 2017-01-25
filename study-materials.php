@@ -40,7 +40,7 @@
 <a href="http://cms.education.gov.il/EducationCMS/Units/Exams/Externi/Takanon/Takanon22.htm">
 המקצועות והנושאים בתוכנית החדשה
 </a>
-(בתוך הקובץ ״תקנון לנבחן האקסטרני)
+(בתוך הקובץ ״תקנון לנבחן האקסטרני״)
 </p>
 </div>
 
