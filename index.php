@@ -157,7 +157,7 @@
             </h2>
             <p>
               <?php
-                $p=file_get_contents("paragraphs/articles.txt");
+                $p=file_get_contents("paragraphs/schools.txt");
                 echo $p;
               ?>
             </p>
