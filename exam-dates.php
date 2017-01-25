@@ -1,15 +1,6 @@
 <!DOCTYPE html>
 <html lang="he" dir="rtl">
   <head>
-  <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-    ga('create', 'UA-88935594-3', 'auto');
-    ga('send', 'pageview');
-  </script>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
@@ -19,17 +10,9 @@
     <meta name="author" content="Hagar Shilo">
     <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Alef" rel="stylesheet">
-
     <title>בגרות אקסטרנית</title>
-
-    <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
     <link href="my-css/light-theme.css" rel="stylesheet">
-    <!--
-    <link href="my-css/my-css2.css" rel="stylesheet">
-    -->
 
   </head>
   <body>
@@ -57,10 +40,6 @@
 <a href="http://cms.education.gov.il/NR/rdonlyres/9CE8F57D-5831-4981-980F-F8D450D3EAB1/212605/20191.pdf">לוח בחינות לנבחנים על פי תוכנית הרפורמה</a>
 <br>
 </p>
-
-<p>
-אם האתר לא מעודכן ואת מחפשת מועד מאוחר יותר, נסי ב<a href="http://cms.education.gov.il/EducationCMS/Units/Exams/BchinotBagrut/Moed/">אתר של אגף הבחינות</a>.
-</p>
 </div>
 
 <!-- Buffer container-->
@@ -71,6 +50,14 @@
   <a href="http://cms.education.gov.il/NR/rdonlyres/286ADB1C-71AD-4E88-8029-5783735820C8/212106/07092018.pdf">לוח מועדי קיץ
   </a>
   </p>
+</div>
+
+<!-- Buffer container-->
+<div class="container"></div>
+<div class="container container-green">
+  <h4>
+לא מצאת מה שחיפשת?
+  </h4>
   <p>
   אם האתר לא מעודכן ואת מחפשת מועד מאוחר יותר, נסי ב<a href="http://cms.education.gov.il/EducationCMS/Units/Exams/BchinotBagrut/Moed/">אתר של אגף הבחינות</a>.
   </p>

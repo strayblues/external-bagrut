@@ -60,7 +60,7 @@ h4 {
   float: right !important;
 }
 
-a {
+.home a {
   font-size: 14pt;
   color: black;
 }
@@ -195,11 +195,16 @@ a:hover {
 
 .question {
   margin-top: 2rem;
-  font-size: 120%;
-  color: #990000;
+  font-size: 130%;
+  color: #cc304e;
 }
 
 .faq a {
     font-size: 100%;
     color: blue;
+}
+
+.credit {
+  margin-bottom: 3rem;
+  color: ;
 }

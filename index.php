@@ -55,9 +55,9 @@
 <!-- Buffer container-->
 <div class="container"></div>
 <!-- 1st row for columns -->
-<div class="container">
+<div class="container home">
 <div class="row">
-  <div class="col-md-6">
+  <div class="col-md-4">
     <div class="thumbnail">
       <!-- Anchor tag covering both your caption and image -->
       <a href="procedure.html">
@@ -77,8 +77,26 @@
       <!-- Anchor tag ends covering both image and caption -->
     </div>
   </div>
-
-  <div class="col-md-6">
+  <div class="col-md-4">
+    <div class="thumbnail thumbnail-mid">
+      <!-- Anchor tag covering both your caption and image -->
+      <a href="tests.php">
+        <div>
+          <h2>
+            מבחנים לדוגמה
+          </h2>
+          <p>
+            <?php
+              $p=file_get_contents("paragraphs/exams.txt");
+              echo $p;
+            ?>
+          </p>
+        </div>
+      </a>
+      <!-- Anchor tag ends covering both image and caption -->
+    </div>
+  </div>
+  <div class="col-md-4">
     <div class="thumbnail">
     <!-- Anchor tag covering both your caption and image -->
     <a href="exam-dates.php">
@@ -99,65 +117,23 @@
   </div>
 </div>
 </div> <!-- End of 1st row -->
-  <!-- 2nd row of columns -->
-<div class="row">
-  <div class="col-md-6">
-    <div class="thumbnail thumbnail-mid">
-      <!-- Anchor tag covering both your caption and image -->
-      <a href="procedure.php">
-        <div>
-          <h2>
-            התהליך
-          </h2>
-          <p>
-            <?php
-              $p=file_get_contents("paragraphs/procedure.txt");
-              echo $p;
-            ?>
-          </p>
-        </div>
-<!--        <img src="images/poop.png" alt="poop emoji" width=20% class="img-fluid">-->
-      </a>
-      <!-- Anchor tag ends covering both image and caption -->
-    </div>
-  </div>
-  <div class="col-md-6">
-    <div class="thumbnail thumbnail-mid">
-      <!-- Anchor tag covering both your caption and image -->
-      <a href="tests.php">
-        <div>
-          <h2>
-            מבחנים לדוגמה
-          </h2>
-          <p>
-            <?php
-              $p=file_get_contents("paragraphs/exams.txt");
-              echo $p;
-            ?>
-          </p>
-        </div>
-      </a>
-      <!-- Anchor tag ends covering both image and caption -->
-      </div>
-    </div>
-  </div> <!-- /2nd row -->
-  <!-- 3rd row -->
+  <!-- 2nd row -->
   <div class="row">
-    <div class="col-md-6">
+    <div class="col-md-4">
       <div class="thumbnail thumbnail-mid">
         <h2>קהילה וירטואלית
         </h2>
         <!-- Facebook social plugin -->
-        <div class="fb-page" data-href="https://www.facebook.com/%D7%92%D7%9D-%D7%90%D7%A0%D7%99-%D7%90%D7%A7%D7%A1%D7%98%D7%A8%D7%A0%D7%99-467236070127188/?fref=ts&amp;ref=br_tf" data-tabs="timeline" data-width="400" data-height="200" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/%D7%92%D7%9D-%D7%90%D7%A0%D7%99-%D7%90%D7%A7%D7%A1%D7%98%D7%A8%D7%A0%D7%99-467236070127188/?fref=ts&amp;ref=br_tf" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/%D7%92%D7%9D-%D7%90%D7%A0%D7%99-%D7%90%D7%A7%D7%A1%D7%98%D7%A8%D7%A0%D7%99-467236070127188/?fref=ts&amp;ref=br_tf">‎גם אני אקסטרני‎</a></blockquote></div>
+        <div class="fb-page" data-href="https://www.facebook.com/%D7%92%D7%9D-%D7%90%D7%A0%D7%99-%D7%90%D7%A7%D7%A1%D7%98%D7%A8%D7%A0%D7%99-467236070127188/?fref=ts&amp;ref=br_tf" data-tabs="timeline" data-width="230" data-height="220" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/%D7%92%D7%9D-%D7%90%D7%A0%D7%99-%D7%90%D7%A7%D7%A1%D7%98%D7%A8%D7%A0%D7%99-467236070127188/?fref=ts&amp;ref=br_tf" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/%D7%92%D7%9D-%D7%90%D7%A0%D7%99-%D7%90%D7%A7%D7%A1%D7%98%D7%A8%D7%A0%D7%99-467236070127188/?fref=ts&amp;ref=br_tf">‎גם אני אקסטרני‎</a></blockquote></div>
       </div>
     </div>
-    <div class="col-md-6">
+    <div class="col-md-4">
       <div class="thumbnail thumbnail-mid">
         <!-- Anchor tag covering both your caption and image -->
         <a href="articles.html">
           <div>
             <h2>
-              עצות והגיגים
+              כתבות וטורים
             </h2>
             <p>
               <?php
@@ -171,7 +147,27 @@
         <!-- Anchor tag ends covering both image and caption -->
       </div>
     </div>
-  </div> <!-- /end of 3rd row -->
+    <div class="col-md-4">
+      <div class="thumbnail thumbnail-mid">
+        <!-- Anchor tag covering both your caption and image -->
+        <a href="articles.html">
+          <div>
+            <h2>
+מסגרות אקסטרניות
+            </h2>
+            <p>
+              <?php
+                $p=file_get_contents("paragraphs/articles.txt");
+                echo $p;
+              ?>
+            </p>
+          </div>
+          <img>
+        </a>
+        <!-- Anchor tag ends covering both image and caption -->
+      </div>
+    </div>
+  </div> <!-- /end of 2nd row -->
 </div> <!-- /container -->
 
 <!-- Buffer container-->
