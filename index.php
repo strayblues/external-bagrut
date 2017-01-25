@@ -60,7 +60,7 @@
   <div class="col-md-4">
     <div class="thumbnail">
       <!-- Anchor tag covering both your caption and image -->
-      <a href="procedure.html">
+      <a href="study-materials.php">
         <div>
           <h2>
             חומרי לימוד

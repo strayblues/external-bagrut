@@ -1,15 +1,6 @@
 <!DOCTYPE html>
 <html lang="he" dir="rtl">
   <head>
-  <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-    ga('create', 'UA-88935594-3', 'auto');
-    ga('send', 'pageview');
-  </script>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
@@ -19,18 +10,9 @@
     <meta name="author" content="Hagar Shilo">
     <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Alef" rel="stylesheet">
-
-    <title>בגרות אקסטרנית</title>
-
-    <!-- Bootstrap core CSS -->
+    <title>מאוד בוגר</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
     <link href="my-css/light-theme.css" rel="stylesheet">
-    <!--
-    <link href="my-css/my-css2.css" rel="stylesheet">
-    -->
-
   </head>
   <body>
     <div class="transparent-bg">
@@ -46,12 +28,24 @@
 <div class="container"></div>
 
 <div class="container container-green" id="intro-text">
+<h2>
+מקצועות ונושאים
+</h2>
+<p class="first">
+<a href="http://cms.education.gov.il/EducationCMS/Units/Exams/Externi/NoseiLimudExterni.htm">
+המקצועות והנושאים בתוכנית הישנה
+</a>
+</p>
 <p>
-אפשר לשים פה משהו אם רוצים
+<a href="http://cms.education.gov.il/EducationCMS/Units/Exams/Externi/Takanon/Takanon22.htm">
+המקצועות והנושאים בתוכנית החדשה
+</a>
+(בתוך הקובץ ״תקנון לנבחן האקסטרני)
 </p>
 </div>
 
-<!-- Buffer container-->
+
+<!-- Buffer container -->
 <div class="container"></div>
 <div class="container container-pink">
 <p>
