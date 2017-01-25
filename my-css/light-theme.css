@@ -192,3 +192,14 @@ a:hover {
 .thumbnail-mid {
   margin-bottom: 2.5rem;
 }
+
+.question {
+  margin-top: 2rem;
+  font-size: 120%;
+  color: #990000;
+}
+
+.faq a {
+    font-size: 100%;
+    color: blue;
+}
