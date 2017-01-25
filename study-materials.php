@@ -47,33 +47,14 @@
 
 <!-- Buffer container -->
 <div class="container"></div>
-<div class="container container-pink">
-<p>
-אפשר לשים פה משהו אם רוצים
-</p>
-</div>
-
-<!-- Buffer container-->
-<div class="container"></div>
-<div class="container container-blue">
-<p>
-אפשר לשים פה משהו אם רוצים
-</p>
-</div>
-
-<!-- Buffer container-->
-<div class="container"></div>
-<div class="container container-purple">
-<p>
-אפשר לשים פה משהו אם רוצים
-</p>
-</div>
-
-<!-- Buffer container-->
-<div class="container"></div>
 <div class="container container-yellow">
+<h2>
+ספרי מיקוד
+</h2>
 <p>
-אפשר לשים פה משהו אם רוצים
+<a href="https://www.reches.co.il/">
+ספרי מיקוד בהוצאת ״רכס״
+</a>
 </p>
 </div>
 
