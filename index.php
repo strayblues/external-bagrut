@@ -20,22 +20,12 @@
     <meta name="author" content="Hagar Shilo">
     <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Alef" rel="stylesheet">
-
-    <title>מאוד בוגר</title>
-
-    <!-- Bootstrap core CSS -->
+    <title>מאוד בוגר - בגרות אקסטרנית</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
     <link href="my-css/light-theme.css" rel="stylesheet">
-    <!--
-    <link href="my-css/my-css2.css" rel="stylesheet">
-    -->
-
   </head>
   <body>
     <div class="transparent-bg">
-<!--      <img src="images/bun-small.jpg">-->
     </div>
     <!-- Social Plugin -->
     <div id="fb-root"></div>
@@ -60,60 +50,62 @@
   <div class="col-md-4">
     <div class="thumbnail">
       <!-- Anchor tag covering both your caption and image -->
-      <a href="study-materials.php">
+      <!--
+      <a href="study-materials.php">-->
         <div>
           <h2>
-            חומרי לימוד
+            נושאי הלימוד
           </h2>
           <p>
             <?php
-              $p2=file_get_contents("paragraphs/study-materials.txt");
+              $p2=file_get_contents("paragraphs/subjects.html");
               echo $p2;
             ?>
           </p>
         </div>
         <img>
-      </a>
-      <!-- Anchor tag ends covering both image and caption -->
-    </div>
-  </div>
-  <div class="col-md-4">
-    <div class="thumbnail thumbnail-mid">
-      <!-- Anchor tag covering both your caption and image -->
-      <a href="tests.php">
-        <div>
-          <h2>
-            מבחנים לדוגמה
-          </h2>
-          <p>
-            <?php
-              $p=file_get_contents("paragraphs/exams.txt");
-              echo $p;
-            ?>
-          </p>
-        </div>
-      </a>
+      <!--</a>-->
       <!-- Anchor tag ends covering both image and caption -->
     </div>
   </div>
   <div class="col-md-4">
     <div class="thumbnail">
     <!-- Anchor tag covering both your caption and image -->
-    <a href="exam-dates.php">
+    <!-- <a href="exam-dates.php">-->
       <div>
         <h2>
-          לוח בחינות
+          מועדי הבחינות
         </h2>
         <p>
           <?php
-            $p=file_get_contents("paragraphs/exam-dates.txt");
+            $p=file_get_contents("paragraphs/exam-dates.html");
             echo $p;
           ?>
         </p>
       </div>
       <img>
-    </a>
+    <!--</a>-->
     <!-- Anchor tag ends covering both image and caption -->
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="thumbnail thumbnail-mid">
+    <h2>קהילה וירטואלית
+    </h2>
+    <!-- Facebook social plugin -->
+    <div class="fb-page" data-href="https://www.facebook.com/%D7%92%D7%9D-%D7%90%D7%A0%D7%99-%D7%90%D7%A7%D7%A1%D7%98%D7%A8%D7%A0%D7%99-467236070127188/?fref=ts&amp;ref=br_tf"
+          data-tabs="timeline"
+          data-width="230"
+          data-height="220"
+          data-small-header="false"
+          data-adapt-container-width="true"
+          data-hide-cover="false"
+          data-show-facepile="true">
+          <blockquote cite="https://www.facebook.com/%D7%92%D7%9D-%D7%90%D7%A0%D7%99-%D7%90%D7%A7%D7%A1%D7%98%D7%A8%D7%A0%D7%99-467236070127188/?fref=ts&amp;ref=br_tf" class="fb-xfbml-parse-ignore">
+            <a href="https://www.facebook.com/%D7%92%D7%9D-%D7%90%D7%A0%D7%99-%D7%90%D7%A7%D7%A1%D7%98%D7%A8%D7%A0%D7%99-467236070127188/?fref=ts&amp;ref=br_tf">
+            ‎גם אני אקסטרני‎
+            </a>
+          </blockquote></div>
   </div>
 </div>
 </div> <!-- End of 1st row -->
@@ -121,34 +113,25 @@
   <div class="row">
     <div class="col-md-4">
       <div class="thumbnail thumbnail-mid">
-        <h2>קהילה וירטואלית
-        </h2>
-        <!-- Facebook social plugin -->
-        <div class="fb-page" data-href="https://www.facebook.com/%D7%92%D7%9D-%D7%90%D7%A0%D7%99-%D7%90%D7%A7%D7%A1%D7%98%D7%A8%D7%A0%D7%99-467236070127188/?fref=ts&amp;ref=br_tf" data-tabs="timeline" data-width="230" data-height="220" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/%D7%92%D7%9D-%D7%90%D7%A0%D7%99-%D7%90%D7%A7%D7%A1%D7%98%D7%A8%D7%A0%D7%99-467236070127188/?fref=ts&amp;ref=br_tf" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/%D7%92%D7%9D-%D7%90%D7%A0%D7%99-%D7%90%D7%A7%D7%A1%D7%98%D7%A8%D7%A0%D7%99-467236070127188/?fref=ts&amp;ref=br_tf">‎גם אני אקסטרני‎</a></blockquote></div>
-      </div>
-    </div>
-    <div class="col-md-4">
-      <div class="thumbnail thumbnail-mid">
         <!-- Anchor tag covering both your caption and image -->
-        <a href="articles.html">
+        <a href="tests.php">
           <div>
             <h2>
-              כתבות וטורים
+              מבחנים לדוגמה
             </h2>
             <p>
               <?php
-                $p=file_get_contents("paragraphs/articles.txt");
+                $p=file_get_contents("paragraphs/exams.html");
                 echo $p;
               ?>
             </p>
           </div>
-          <img>
         </a>
         <!-- Anchor tag ends covering both image and caption -->
       </div>
     </div>
     <div class="col-md-4">
-      <div class="thumbnail thumbnail-mid">
+      <div class="thumbnail">
         <!-- Anchor tag covering both your caption and image -->
         <a href="articles.html">
           <div>
@@ -157,7 +140,7 @@
             </h2>
             <p>
               <?php
-                $p=file_get_contents("paragraphs/schools.txt");
+                $p=file_get_contents("paragraphs/schools.html");
                 echo $p;
               ?>
             </p>
@@ -167,16 +150,37 @@
         <!-- Anchor tag ends covering both image and caption -->
       </div>
     </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <!-- Anchor tag covering both your caption and image -->
+        <a href="homeschooling.php">
+          <div>
+            <h2>
+חינוך ביתי
+            </h2>
+            <p>
+              <?php
+                $p=file_get_contents("paragraphs/homeschooling.html");
+                echo $p;
+              ?>
+            </p>
+          </div>
+          <img>
+        </a>
+        <!-- Anchor tag ends covering both image and caption -->
+      </div>
+    </div>
+
   </div> <!-- /end of 2nd row -->
 </div> <!-- /container -->
 
 <!-- Buffer container-->
 <div class="container"></div>
 
-<div class="container container-green" id="intro-text">
+<div class="container container-green">
 <p>
   <?php
-    $p=file_get_contents("paragraphs/intro-text.html");
+    $p=file_get_contents("paragraphs/faq.html");
     echo $p;
   ?>
 </p>
@@ -196,9 +200,7 @@
 
 <!-- Buffer container-->
 <div class="container container-body"></div>
-
 <hr>
-
 <div id="wrap">
   <div id="main" class="container clear-top">
     <p>&copy; הגר שילה 2016</p>
