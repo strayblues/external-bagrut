@@ -177,10 +177,22 @@
 <!-- Buffer container-->
 <div class="container"></div>
 
+<div class="container container-pink">
+<p>
+  <?php
+    $p=file_get_contents("intro-texts/about.html");
+    echo $p;
+  ?>
+</p>
+</div>
+
+<!-- Buffer container-->
+<div class="container"></div>
+
 <div class="container container-green">
 <p>
   <?php
-    $p=file_get_contents("paragraphs/faq.html");
+    $p=file_get_contents("intro-texts/faq.html");
     echo $p;
   ?>
 </p>
@@ -192,7 +204,7 @@
 <div class="container container-yellow">
 <p>
   <?php
-    $p=file_get_contents("paragraphs/contact.html");
+    $p=file_get_contents("intro-texts/contact.html");
     echo $p;
   ?>
 </p>

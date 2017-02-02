@@ -47,6 +47,10 @@ h2 {
   color: #cc304e;
 }
 
+h3 {
+  margin-top: 3rem;
+}
+
 h4 {
   margin-bottom: 1.75rem;
 }
@@ -205,7 +209,6 @@ a:hover {
 
 .credit {
   margin-bottom: 3rem;
-  color: ;
 }
 
 .first {
