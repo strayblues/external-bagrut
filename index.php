@@ -199,18 +199,6 @@
 </div>
 
 <!-- Buffer container-->
-<div class="container"></div>
-
-<div class="container container-yellow">
-<p>
-  <?php
-    $p=file_get_contents("intro-texts/contact.html");
-    echo $p;
-  ?>
-</p>
-</div>
-
-<!-- Buffer container-->
 <div class="container container-body"></div>
 <hr>
 <div id="wrap">
