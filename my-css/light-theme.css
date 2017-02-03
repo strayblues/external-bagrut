@@ -108,44 +108,41 @@ a:hover {
   right: auto;
 }
 
-.btn-primary {
-  color: #fff;
+.btn {
+  color: #fff !important;
   border-color: #111 !important;
+}
+
+.btn-primary {
   background-color: #111 !important;
 }
 
 .btn-primary:hover {
-  color: #fff;
-  border-color: #111 !important;
   background-color: #444 !important;
 }
 
 .btn-about {
-  color: #fff;
-  border-color: #111 !important;
   background-color: #fe3b62 !important;
 }
 
 .btn-about:hover {
-  color: #fff;
-  background-color: #f59 !important;
-  border-color: #111;
-}
-
-.btn-about:active {
-  background-color: #fff;
+  background-color: #e85f7a !important;
 }
 
 .btn-faq {
-  color: #fff;
-  border-color: #111 !important;
   background-color: #a5cb3a !important;
 }
 
 .btn-faq:hover {
-  color: #fff;
-  background-color: #5f9 !important;
-  border-color: #111;
+  background-color: #bee256 !important;
+}
+
+.btn-contact {
+  background-color: #59f !important;
+}
+
+.btn-contact:hover {
+  background-color: #8bf !important;
 }
 
 .btn-default {
