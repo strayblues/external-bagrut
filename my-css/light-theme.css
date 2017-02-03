@@ -235,3 +235,7 @@ a:hover {
 .first {
   margin-top: 1.5rem;
 }
+
+.no-top {
+  margin-top: 0;
+}
