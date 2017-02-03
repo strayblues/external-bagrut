@@ -201,7 +201,7 @@
 <!-- Buffer container-->
 <div class="container"></div>
 
-<div class="container container-yellow">
+<div class="container container-blue">
 <p>
   <?php
     $p=file_get_contents("intro-texts/contact.html");
