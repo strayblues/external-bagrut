@@ -116,12 +116,36 @@ a:hover {
 
 .btn-primary:hover {
   color: #fff;
+  border-color: #111 !important;
   background-color: #444 !important;
+}
+
+.btn-about {
+  color: #fff;
+  border-color: #111 !important;
+  background-color: #fe3b62 !important;
+}
+
+.btn-about:hover {
+  color: #fff;
+  background-color: #f59 !important;
   border-color: #111;
 }
 
-.btn-primary:active {
+.btn-about:active {
   background-color: #fff;
+}
+
+.btn-faq {
+  color: #fff;
+  border-color: #111 !important;
+  background-color: #a5cb3a !important;
+}
+
+.btn-faq:hover {
+  color: #fff;
+  background-color: #5f9 !important;
+  border-color: #111;
 }
 
 .btn-default {
