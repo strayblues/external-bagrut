@@ -16,8 +16,12 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <link rel="icon" href="favicon.ico">
     <script src="https://use.fontawesome.com/8f61b97be3.js"></script>
-    <meta name="description" content="מידע על בגרות אקסטרנית">
-    <meta name="keywords" content="בגרות,אקסטרנית,איך,עושים,לעשות,אפשר,אקסטרני,אקסטרנים,תלמיד,תלמידה,תלמידים,למידה,עצמאית,לבגרות,תעודת,תעודה,בגרויות,בית,ספר,בצפר,לא,בבית,מחוץ ל,חיצוני,חיצוניים,בחינות,מבחן,בחינת,ציון,מגן,מתכונת,איך עושים בגרות אקסטרנית, איך עושים בגרות לבד,ניגשים,באופן עצמאי">
+    <meta name="description"
+          content="
+          מידע על בגרות אקסטרנית,
+          Category: Education
+          ">
+    <meta name="keywords" content="בגרות,אקסטרנית,איך,עושים,לעשות,אפשר,אקסטרני,אקסטרנים,תלמיד,תלמידה,תלמידים,למידה,עצמאית,לבגרות,תעודת,תעודה,בגרויות,בית,ספר,בצפר,לא,בבית,מחוץ ל,חיצוני,חיצוניים,בחינות,מבחן,בחינת,ציון,מגן,מתכונת,איך עושים בגרות אקסטרנית, איך עושים בגרות לבד,ניגשים,באופן עצמאי,מיקוד,מיקודית">
     <meta name="author" content="Hagar Shilo">
     <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Alef" rel="stylesheet">
