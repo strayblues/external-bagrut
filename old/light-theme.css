@@ -1,0 +1,241 @@
+* {
+  direction: rtl;
+}
+
+body {
+  background-color: #cae6f7;
+  font-family: 'Varela Round', sans-serif;
+}
+
+.transparent-bg {
+  background-image: url("../images/bun-small.jpg");
+	background-repeat: repeat;
+	opacity: 0.2;
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: -1;
+  background-attachment: scroll;
+}
+
+.banner {
+  background-color: #124d72;
+  color: #5896bc;
+}
+
+.container {
+  padding: 2rem;
+}
+
+.container-body {
+  padding-top: 6rem;
+}
+
+
+h1, .sub {
+    font-family: 'Alef', sans-serif;
+}
+
+h1 {
+  color: #cae6f7;
+  font-size: 80%;
+}
+
+h2 {
+  color: #cc304e;
+}
+
+h3 {
+  margin-top: 3rem;
+}
+
+h4 {
+  margin-bottom: 1.75rem;
+}
+
+.sub {
+  font-size: 170%;
+}
+
+.col-md-4, .col-md-3 {
+  float: right !important;
+}
+
+.home a {
+  font-size: 14pt;
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #cc304e;
+}
+
+.on-green {
+  font-size: 12pt;
+  color: #cc304e;
+}
+
+.on-green:hover {
+  color: white;
+}
+
+.btn-group-justified {
+  display: flex;
+  width: 100%;
+}
+
+.btn {
+  line-height: 2;
+  font-size: 1.25rem;
+}
+
+.btn, .btn-group {
+  flex: 0;
+}
+
+.btn-group {
+  background-color: #111;
+}
+
+.modal .btn {
+  float: left;
+}
+
+.dropdown-menu {
+  right: auto;
+}
+
+.btn {
+  color: #fff !important;
+  border-color: #111 !important;
+}
+
+.btn-primary {
+  background-color: #111 !important;
+}
+
+.btn-primary:hover {
+  background-color: #444 !important;
+}
+
+.btn-about {
+  background-color: #fe3b62 !important;
+}
+
+.btn-about:hover {
+  background-color: #f27b92 !important;
+}
+
+.btn-faq {
+  background-color: #d6b820 !important;
+}
+
+.btn-faq:hover {
+  background-color: #f7e06c !important;
+}
+
+.btn-contact {
+  background-color: #59f !important;
+}
+
+.btn-contact:hover {
+  background-color: #8bf !important;
+}
+
+.btn-default {
+  background-color: #bbb;
+}
+
+.btn-default:hover {
+  background-color: #999 !important;
+}
+
+.modal-content {
+  background-color: #a5cb3a !important;
+}
+
+.btn-sm {
+  margin-top: 2rem;
+  margin-right: 0.5rem;
+  line-height: 1.5;
+  font-size: 1rem;
+}
+
+.modal-footer {
+  clear: both;
+}
+
+.container-green, .container-pink, .container-blue, .container-purple, .container-yellow {
+  color: black;
+}
+
+.container-green {
+  background-color: #a5cb3a;
+}
+
+.container-pink {
+  background-color: #f9617f;
+}
+
+.container-yellow {
+  background-color: #efd551;
+}
+
+.container-blue {
+  background-color: #6db8f9;
+}
+
+.container-purple {
+  background-color: #e176fc;
+}
+
+#main {
+  overflow:auto;
+  padding-bottom:3rem; /* this needs to be bigger than footer height*/
+}
+
+#wrap {
+  min-height: 100%;
+}
+
+.footer {
+  position: relative;
+  margin-top: -3rem; /* negative value of footer height */
+  height: 3rem;
+  clear:both;
+  padding-top:20px;
+}
+
+.pages {
+  color: black;
+}
+
+.thumbnail-mid {
+  margin-bottom: 2.5rem;
+}
+
+.question {
+  margin-top: 2rem;
+  font-size: 130%;
+  color: #cc304e;
+}
+
+.faq a {
+    font-size: 100%;
+    color: blue;
+}
+
+.credit {
+  margin-bottom: 3rem;
+}
+
+.first {
+  margin-top: 1.5rem;
+}
+
+.no-top {
+  margin-top: 0;
+}
