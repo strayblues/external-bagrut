@@ -16,7 +16,8 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <link rel="icon" href="favicon.ico">
     <script src="https://use.fontawesome.com/8f61b97be3.js"></script>
-    <meta name="description" content="">
+    <meta name="description" content="מידע על בגרות אקסטרנית">
+    <meta name="keywords" content="בגרות,אקסטרנית,איך,עושים,לעשות,אפשר,אקסטרני,אקסטרנים,תלמיד,תלמידה,תלמידים,למידה,עצמאית,לבגרות,תעודת,תעודה,בגרויות,בית,ספר,בצפר,לא,בבית,מחוץ ל,חיצוני,חיצוניים,בחינות,מבחן,בחינת,ציון,מגן,מתכונת">
     <meta name="author" content="Hagar Shilo">
     <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Alef" rel="stylesheet">
@@ -189,7 +190,7 @@
 <!-- Buffer container-->
 <div class="container"></div>
 
-<div class="container container-green">
+<div class="container container-yellow">
 <p>
   <?php
     $p=file_get_contents("intro-texts/faq.html");

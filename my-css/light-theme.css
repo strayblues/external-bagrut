@@ -126,15 +126,15 @@ a:hover {
 }
 
 .btn-about:hover {
-  background-color: #e85f7a !important;
+  background-color: #f27b92 !important;
 }
 
 .btn-faq {
-  background-color: #a5cb3a !important;
+  background-color: #d6b820 !important;
 }
 
 .btn-faq:hover {
-  background-color: #bee256 !important;
+  background-color: #f7e06c !important;
 }
 
 .btn-contact {
@@ -177,11 +177,11 @@ a:hover {
 }
 
 .container-pink {
-  background-color: #fe3b62;
+  background-color: #f9617f;
 }
 
 .container-yellow {
-  background-color: #ffda23;
+  background-color: #efd551;
 }
 
 .container-blue {
