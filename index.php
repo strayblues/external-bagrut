@@ -215,15 +215,16 @@
 </p>
 </div>
 
-<!-- Buffer container-->
-<div class="container container-body"></div>
-<hr>
-<div id="wrap">
-  <div id="main" class="container clear-top">
+<div class="container">
+  <hr>
+  <?php
+    include("includes/fa-icons.php");
+  ?>
+  <footer>
     <p>&copy; הגר שילה 2016</p>
-  </div>
+  </footer>
 </div>
-<footer class="footer"></footer>
+
 
 
     <!-- Bootstrap core JavaScript

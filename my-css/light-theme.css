@@ -138,7 +138,7 @@ a:hover {
 }
 
 .btn-contact {
-  background-color: #59f !important;
+  background-color: #71aee2 !important;
 }
 
 .btn-contact:hover {
@@ -186,21 +186,30 @@ a:hover {
 
 .container-blue {
   background-color: #6db8f9;
+  background-color: #71aee2;
+}
+
+.container-blue a {
+  color: white;
+}
+
+.container-blue a:hover {
+  color: blue;
 }
 
 .container-purple {
   background-color: #e176fc;
 }
-
+/*
 #main {
   overflow:auto;
-  padding-bottom:3rem; /* this needs to be bigger than footer height*/
+  padding-bottom:3rem; /* this needs to be bigger than footer height
 }
 
 #wrap {
   min-height: 100%;
 }
-
+*/
 .footer {
   position: relative;
   margin-top: -3rem; /* negative value of footer height */
@@ -228,6 +237,11 @@ a:hover {
     color: blue;
 }
 
+.faq a:hover {
+    color: white;
+}
+
+
 .credit {
   margin-bottom: 3rem;
 }
@@ -238,4 +252,21 @@ a:hover {
 
 .no-top {
   margin-top: 0;
+}
+
+.icon-holder a {
+  color: #124d72;
+}
+
+.icon-holder a:hover {
+  color: #3c7ea8;
+}
+
+.fa {
+  margin-left: 1rem;
+}
+
+.ftr-icons {
+  height: 5rem;
+  left, right: 0rem;
 }
