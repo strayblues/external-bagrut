@@ -173,7 +173,7 @@ a:hover {
 }
 
 .container-green {
-  background-color: #a5cb3a;
+  background-color: #9ec66f;
 }
 
 .container-pink {
@@ -185,8 +185,7 @@ a:hover {
 }
 
 .container-blue {
-  background-color: #6db8f9;
-  background-color: #71aee2;
+  background-color: #81c2f9;
 }
 
 .container-blue a {
@@ -240,7 +239,6 @@ a:hover {
 .faq a:hover {
     color: white;
 }
-
 
 .credit {
   margin-bottom: 3rem;
