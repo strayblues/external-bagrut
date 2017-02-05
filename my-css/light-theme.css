@@ -234,6 +234,10 @@ a:hover {
   color: #cc304e;
 }
 
+#faq {
+  margin-bottom: 3rem;
+}
+
 .faq a {
     font-size: 100%;
     color: blue;
@@ -244,7 +248,7 @@ a:hover {
 }
 
 .credit {
-  margin-bottom: 3rem;
+
 }
 
 .first {
