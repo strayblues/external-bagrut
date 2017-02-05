@@ -138,7 +138,7 @@
     <div class="col-md-4">
       <div class="thumbnail">
         <!-- Anchor tag covering both your caption and image -->
-        <a href="articles.html">
+        <a href="schools.php">
           <div>
             <h2>
 מסגרות אקסטרניות
