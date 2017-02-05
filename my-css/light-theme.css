@@ -122,11 +122,13 @@ a:hover {
 }
 
 .btn-about {
-  background-color: #fe3b62 !important;
+/*  background-color: #fe3b62 !important; // pink*/
+  background-color: #84a85a !important; // green
 }
 
 .btn-about:hover {
-  background-color: #f27b92 !important;
+/*  background-color: #f27b92 !important; // pink*/
+  background-color: #a5d370 !important; // green
 }
 
 .btn-faq {
@@ -178,6 +180,7 @@ a:hover {
 
 .container-pink {
   background-color: #f9617f;
+  background-color: #f7889e;
 }
 
 .container-yellow {

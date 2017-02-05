@@ -182,7 +182,7 @@
 <!-- Buffer container-->
 <div class="container"></div>
 
-<div class="container container-pink">
+<div class="container container-green">
 <p>
   <?php
     $p=file_get_contents("intro-texts/about.html");
