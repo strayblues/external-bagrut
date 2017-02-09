@@ -139,6 +139,14 @@ a:hover {
   background-color: #f7e06c !important;
 }
 
+.btn-faq2 {
+  background-color: #cc304e;
+}
+
+.btn-faq2:hover {
+  background-color: #f9617f;
+}
+
 .btn-contact {
   background-color: #71aee2 !important;
 }
@@ -155,9 +163,11 @@ a:hover {
   background-color: #999 !important;
 }
 
-.modal-content {
-  background-color: #a5cb3a !important;
+
+.modal-content-blue {
+  background-color: #81c2f9 !important;
 }
+
 
 .btn-sm {
   margin-top: 2rem;
@@ -187,7 +197,23 @@ a:hover {
   background-color: #efd551;
 }
 
-.container-blue {
+.inner-container {
+  padding: 2rem;
+}
+
+.inner-1 {
+  background-color: #f4e17c;
+}
+
+.inner-2 {
+  background-color: #f4b87c;
+}
+
+.inner-3 {
+  background-color: #ff9682;
+}
+
+.container-blue, .blue-form {
   background-color: #81c2f9;
 }
 
@@ -274,4 +300,23 @@ a:hover {
 .ftr-icons {
   height: 5rem;
   left, right: 0rem;
+}
+
+.status {
+  text-align: center;
+  color: white;
+  font-size: 130%;
+}
+
+.modal-content-green {
+  background-color: #8db262; // darker green
+  text-align: right;
+}
+
+.modal-header {
+  border-bottom: #8db262;
+}
+
+.contact-form {
+  text-align: right;
 }

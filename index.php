@@ -181,7 +181,6 @@
 
 <!-- Buffer container-->
 <div class="container"></div>
-
 <div class="container container-green">
 <p>
   <?php
@@ -193,23 +192,18 @@
 
 <!-- Buffer container-->
 <div class="container"></div>
-
-<div class="container container-yellow">
-<p>
-  <?php
-    $p=file_get_contents("intro-texts/faq.html");
-    echo $p;
-  ?>
-</p>
+<div class="container">
+<?php
+  include("intro-texts/helping.php");
+?>
 </div>
 
 <!-- Buffer container-->
 <div class="container"></div>
-
-<div class="container container-blue">
+<div class="container container-yellow">
 <p>
   <?php
-    $p=file_get_contents("intro-texts/contact.html");
+    $p=file_get_contents("intro-texts/faq.html");
     echo $p;
   ?>
 </p>
