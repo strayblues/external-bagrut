@@ -31,36 +31,6 @@ ajax.send( formdata );
 }
 </script>
 <div class="row">
-  <div class="col-md-6 first" id="contact">
-      <div class="modal-content-blue">
-        <div class="contact-form form-horizontal">
-          <div class="modal-header">
-            <form id="my_form" onsubmit="submitForm(); return false;">
-                <div class="modal-body">
-                  <div class="form-group">
-                    <div class="col-lg-12">
-                      <input type="text" id="n" placeholder="שם" class="form-control" required>
-                    </div>
-                  </div><!--/form-group-->
-                  <div class="form-group">
-                    <div class="col-lg-12">
-                      <input type="email" id="e" placeholder="אימייל" class="form-control" required>
-                    </div>
-                  </div><!--/form-group-->
-                  <div class="form-group">
-                    <div class="col-lg-12">
-                      <textarea type="text" rows="6" id="m" placeholder="הודעה..." class="form-control" required></textarea>
-                    </div>
-                  </div><!--/form-group-->
-                  <button class="btn btn-primary btn-sm" id="send" type="submit"
-                  value="Send">שליחה</button>
-                  <div class="status"></div>
-                </div>
-              </div>
-            </div><!--/form class-->
-        </form>
-      </div> <!-- /modal content -->
-    </div>
     <div class="col-md-6">
       <h3>
 איך אתם יכולים לעזור?
@@ -93,5 +63,34 @@ ajax.send( formdata );
     </ul>
     </p>
   </div>
-
+  <div class="col-md-6 first" id="contact">
+      <div class="modal-content-blue">
+        <div class="contact-form form-horizontal">
+          <div class="modal-header">
+            <form id="my_form" onsubmit="submitForm(); return false;">
+                <div class="modal-body">
+                  <div class="form-group">
+                    <div class="col-lg-12">
+                      <input type="text" id="n" placeholder="שם" class="form-control" required>
+                    </div>
+                  </div><!--/form-group-->
+                  <div class="form-group">
+                    <div class="col-lg-12">
+                      <input type="email" id="e" placeholder="you@example.com" class="form-control" required>
+                    </div>
+                  </div><!--/form-group-->
+                  <div class="form-group">
+                    <div class="col-lg-12">
+                      <textarea type="text" rows="6" id="m" placeholder="הודעה..." class="form-control" required></textarea>
+                    </div>
+                  </div><!--/form-group-->
+                  <button class="btn btn-primary btn-sm" id="send" type="submit"
+                  value="Send">שליחה</button>
+                  <div class="status"></div>
+                </div>
+              </div>
+            </div><!--/form class-->
+        </form>
+      </div> <!-- /modal content -->
+    </div>
 </div>
