@@ -320,3 +320,17 @@ a:hover {
 .contact-form {
   text-align: right;
 }
+
+.thumbnail-text {
+  color: black;
+  font-size: 14pt;
+}
+
+#inner-link {
+  color: #cc304e;
+  text-decoration: none;
+}
+
+#inner-link:hover {
+  color: blue;
+}

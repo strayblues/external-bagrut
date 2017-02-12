@@ -27,7 +27,7 @@
     <link href="https://fonts.googleapis.com/css?family=Alef" rel="stylesheet">
     <title>מאוד בוגר - בגרות אקסטרנית</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="my-css/light-theme.css" rel="stylesheet">
+    <link href="my-css/externit.css" rel="stylesheet">
   </head>
   <body>
     <div class="transparent-bg">
@@ -118,8 +118,6 @@
   <div class="row">
     <div class="col-md-4">
       <div class="thumbnail thumbnail-mid">
-        <!-- Anchor tag covering both your caption and image -->
-        <a href="tests.php">
           <div>
             <h2>
               מבחנים לדוגמה
@@ -131,8 +129,6 @@
               ?>
             </p>
           </div>
-        </a>
-        <!-- Anchor tag ends covering both image and caption -->
       </div>
     </div>
     <div class="col-md-4">

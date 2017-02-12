@@ -19,18 +19,9 @@
     <meta name="author" content="Hagar Shilo">
     <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Alef" rel="stylesheet">
-
     <title>בגרות אקסטרנית</title>
-
-    <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="my-css/light-theme.css" rel="stylesheet">
-    <!--
-    <link href="my-css/my-css2.css" rel="stylesheet">
-    -->
-
+    <link href="my-css/externit.css" rel="stylesheet">
   </head>
   <body>
     <div class="transparent-bg">
