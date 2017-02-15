@@ -31,7 +31,7 @@ ajax.send( formdata );
 }
 </script>
 <div class="row">
-    <div class="col-md-6">
+    <div class="col-md-6 form-row-item">
       <h3>
 איך אתם יכולים לעזור?
       </h3>
@@ -63,7 +63,7 @@ ajax.send( formdata );
     </ul>
     </p>
   </div>
-  <div class="col-md-6 first" id="contact">
+  <div class="col-md-6 first form-row-item" id="contact">
       <div class="modal-content-blue">
         <div class="contact-form form-horizontal">
           <div class="modal-header">

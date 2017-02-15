@@ -7,6 +7,10 @@ body {
   font-family: 'Varela Round', sans-serif;
 }
 
+.form-row-item {
+  float: right;
+}
+
 .transparent-bg {
   background-image: url("../images/bun-small.jpg");
 	background-repeat: repeat;
