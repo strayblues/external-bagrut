@@ -338,3 +338,7 @@ a:hover {
 #inner-link:hover {
   color: blue;
 }
+
+#send {
+  margin-right: 1rem;
+}

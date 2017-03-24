@@ -166,7 +166,7 @@
               ?>
             </p>
           </div>
-          <img src="images/homeschooling.png" alt="Buffy wants to be homeschooled" width=100% class="img-fluid">
+          <img src="images/homeschooling.png" alt="Buffy wants to be homeschooled" class="img-fluid">
         </a>
         <!-- Anchor tag ends covering both image and caption -->
       </div>

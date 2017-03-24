@@ -18,7 +18,7 @@ ajax.onreadystatechange = function() {
     if(ajax.responseText == "success"){
       // Confirm that the email was sent
       $(".status").html('<p>תודה '+_("n").value+', ההודעה נשלחה.</p>');
-      setTimeout(function(){_("send").disabled=false}, 5000);
+      setTimeout(function(){_("send").disabled=false}, 4000);
     } else { // In the event of data processing failure:
       // Output a msg about why the email wasn't sent
       $(".status").html(ajax.responseText);
@@ -33,13 +33,13 @@ ajax.send( formdata );
 <div class="row">
     <div class="col-md-6 form-row-item">
       <h3>
-איך אתם יכולים לעזור?
+איך אתן יכולות לעזור?
       </h3>
     <p class="first">
 תכתבו לי אם:
     <ul>
       <li>
-האתר הועיל לכם באיזשהו אופן
+האתר הועיל לכן באיזשהו אופן
       </li>
       <li>
 האתר לא הועיל ויש הצעות לשיפור
@@ -48,7 +48,7 @@ ajax.send( formdata );
 יש לכן רעיון לתוספת לאתר
       </li>
       <li>
-יש לכן הערה או שאלה
+יש לכם הערה או שאלה
       </li>
       <li>
 מצאתם טעות
