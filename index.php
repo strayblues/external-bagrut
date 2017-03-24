@@ -27,7 +27,7 @@
     <link href="https://fonts.googleapis.com/css?family=Alef" rel="stylesheet">
     <title>מאוד בוגר - בגרות אקסטרנית</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="my-css/externit.css" rel="stylesheet">
+    <link href="css/externit.css" rel="stylesheet">
   </head>
   <body>
     <div class="transparent-bg">
@@ -166,7 +166,7 @@
               ?>
             </p>
           </div>
-          <img>
+          <img src="images/homeschooling.png" alt="Buffy wants to be homeschooled" width=100% class="img-fluid">
         </a>
         <!-- Anchor tag ends covering both image and caption -->
       </div>
