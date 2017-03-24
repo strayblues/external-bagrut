@@ -133,8 +133,7 @@
     </div>
     <div class="col-md-4">
       <div class="thumbnail">
-        <!-- Anchor tag covering both your caption and image -->
-        <a href="schools.php">
+<!--        <a href="schools.php">-->
           <div>
             <h2>
 מסגרות אקסטרניות
@@ -146,14 +145,14 @@
               ?>
             </p>
           </div>
-          <img>
-        </a>
-        <!-- Anchor tag ends covering both image and caption -->
+          <iframe src="https://www.youtube.com/embed/FR0_sZtCfJ0" width="100%" height="200">
+          </iframe>
+        <!--</a>-->
       </div>
     </div>
     <div class="col-md-4">
       <div class="thumbnail">
-        <!-- Anchor tag covering both your caption and image -->
+        <!-- Anchor tag covering both caption and image -->
         <a href="homeschooling.php">
           <div>
             <h2>
