@@ -57,110 +57,87 @@
 <div class="row">
   <div class="col-md-4">
     <div class="thumbnail">
-      <!-- Anchor tag covering both your caption and image -->
-      <!--
-      <a href="study-materials.php">-->
-        <div>
-          <h2>נושאי הלימוד</h2>
-          <p>
-            <?php
-              $p2=file_get_contents("paragraphs/subjects.html");
-              echo $p2;
-            ?>
-          </p>
-        </div>
-        <img>
-      <!--</a>-->
-      <!-- Anchor tag ends covering both image and caption -->
+      <h2>נושאי הלימוד</h2>
+      <p>
+        <?php
+          $p2=file_get_contents("paragraphs/subjects.html");
+          echo $p2;
+        ?>
+      </p>
     </div>
   </div>
   <div class="col-md-4">
     <div class="thumbnail">
-    <!-- Anchor tag covering both your caption and image -->
-    <!-- <a href="exam-dates.php">-->
-      <div>
-        <h2>מועדי הבחינות</h2>
-        <p>
-          <?php
-            $p=file_get_contents("paragraphs/exam-dates.html");
-            echo $p;
-          ?>
-        </p>
+      <h2>מועדי הבחינות</h2>
+      <p>
+        <?php
+          $p=file_get_contents("paragraphs/exam-dates.html");
+          echo $p;
+        ?>
+      </p>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="thumbnail thumbnail-mid">
+      <h2>קהילה וירטואלית</h2>
+      <!-- Facebook social plugin -->
+      <div class="fb-page" data-href="https://www.facebook.com/%D7%92%D7%9D-%D7%90%D7%A0%D7%99-%D7%90%D7%A7%D7%A1%D7%98%D7%A8%D7%A0%D7%99-467236070127188/?fref=ts&amp;ref=br_tf"
+        data-tabs="timeline"
+        data-width="230"
+        data-height="220"
+        data-small-header="false"
+        data-adapt-container-width="true"
+        data-hide-cover="false"
+        data-show-facepile="true">
+        <blockquote cite="https://www.facebook.com/%D7%92%D7%9D-%D7%90%D7%A0%D7%99-%D7%90%D7%A7%D7%A1%D7%98%D7%A8%D7%A0%D7%99-467236070127188/?fref=ts&amp;ref=br_tf" class="fb-xfbml-parse-ignore">
+          <a href="https://www.facebook.com/%D7%92%D7%9D-%D7%90%D7%A0%D7%99-%D7%90%D7%A7%D7%A1%D7%98%D7%A8%D7%A0%D7%99-467236070127188/?fref=ts&amp;ref=br_tf">
+          ‎גם אני אקסטרני‎
+          </a>
+        </blockquote></div>
       </div>
-      <img>
-    <!--</a>-->
-    <!-- Anchor tag ends covering both image and caption -->
   </div>
-</div>
-<div class="col-md-4">
-  <div class="thumbnail thumbnail-mid">
-    <h2>קהילה וירטואלית</h2>
-    <!-- Facebook social plugin -->
-    <div class="fb-page" data-href="https://www.facebook.com/%D7%92%D7%9D-%D7%90%D7%A0%D7%99-%D7%90%D7%A7%D7%A1%D7%98%D7%A8%D7%A0%D7%99-467236070127188/?fref=ts&amp;ref=br_tf"
-          data-tabs="timeline"
-          data-width="230"
-          data-height="220"
-          data-small-header="false"
-          data-adapt-container-width="true"
-          data-hide-cover="false"
-          data-show-facepile="true">
-          <blockquote cite="https://www.facebook.com/%D7%92%D7%9D-%D7%90%D7%A0%D7%99-%D7%90%D7%A7%D7%A1%D7%98%D7%A8%D7%A0%D7%99-467236070127188/?fref=ts&amp;ref=br_tf" class="fb-xfbml-parse-ignore">
-            <a href="https://www.facebook.com/%D7%92%D7%9D-%D7%90%D7%A0%D7%99-%D7%90%D7%A7%D7%A1%D7%98%D7%A8%D7%A0%D7%99-467236070127188/?fref=ts&amp;ref=br_tf">
-            ‎גם אני אקסטרני‎
-            </a>
-          </blockquote></div>
-  </div>
-</div>
 </div> <!-- End of 1st row -->
   <!-- 2nd row -->
-  <div class="row">
-    <div class="col-md-4">
-      <div class="thumbnail thumbnail-mid">
-        <div>
-          <h2>
-            מבחנים לדוגמה
-          </h2>
-          <p>
-            <?php
-              $p=file_get_contents("paragraphs/exams.html");
-              echo $p;
-            ?>
-          </p>
-        </div>
-      </div>
+<div class="row">
+  <div class="col-md-4">
+    <div class="thumbnail thumbnail-mid">
+      <h2>מבחנים לדוגמה</h2>
+      <p>
+        <?php
+          $p=file_get_contents("paragraphs/exams.html");
+          echo $p;
+        ?>
+      </p>
     </div>
-    <div class="col-md-4">
-      <div class="thumbnail thumbnail-mid">
-        <div>
-          <h2>למידה אונליין</h2>
-          <p>
-            <?php
-              $p=file_get_contents("paragraphs/online.html");
-              echo $p;
-            ?>
-          </p>
-        </div>
-      </div>
+  </div>
+  <div class="col-md-4">
+    <div class="thumbnail thumbnail-mid">
+      <h2>למידה אונליין</h2>
+      <p>
+        <?php
+          $p=file_get_contents("paragraphs/online.html");
+          echo $p;
+        ?>
+      </p>
     </div>
-    <div class="col-md-4">
-      <div class="thumbnail">
-        <div>
-          <h2>חינוך ביתי</h2>
-          <p>
-            <?php
-              $p=file_get_contents("paragraphs/homeschooling.html");
-              echo $p;
-            ?>
-          </p>
-        </div>
-      </div>
+  </div>
+  <div class="col-md-4">
+    <div class="thumbnail">
+      <h2>חינוך ביתי</h2>
+      <p>
+        <?php
+          $p=file_get_contents("paragraphs/homeschooling.html");
+          echo $p;
+        ?>
+      </p>
     </div>
-
-  </div> <!-- / End of 2nd row -->
+  </div>
+</div> <!-- / End of 2nd row -->
 </div> <!-- / End of container -->
 
 <!-- Buffer container-->
 <div class="container"></div>
+
 <div class="container container-green">
 <p>
   <?php
