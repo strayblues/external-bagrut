@@ -136,17 +136,19 @@
 <!--        <a href="schools.php">-->
           <div>
             <h2>
-מסגרות אקסטרניות
+למידה אונליין
             </h2>
             <p>
               <?php
-                $p=file_get_contents("paragraphs/schools.html");
+                $p=file_get_contents("paragraphs/online.html");
                 echo $p;
               ?>
             </p>
           </div>
+<!--
           <iframe src="https://www.youtube.com/embed/FR0_sZtCfJ0" width="100%" height="190">
           </iframe>
+-->
         <!--</a>-->
       </div>
     </div>
@@ -165,7 +167,9 @@
               ?>
             </p>
           </div>
+<!--
           <img src="images/homeschooling.png" alt="Buffy wants to be homeschooled" class="img-fluid">
+-->
         </a>
         <!-- Anchor tag ends covering both image and caption -->
       </div>
