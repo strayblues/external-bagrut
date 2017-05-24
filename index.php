@@ -61,9 +61,7 @@
       <!--
       <a href="study-materials.php">-->
         <div>
-          <h2>
-            נושאי הלימוד
-          </h2>
+          <h2>נושאי הלימוד</h2>
           <p>
             <?php
               $p2=file_get_contents("paragraphs/subjects.html");
@@ -81,9 +79,7 @@
     <!-- Anchor tag covering both your caption and image -->
     <!-- <a href="exam-dates.php">-->
       <div>
-        <h2>
-          מועדי הבחינות
-        </h2>
+        <h2>מועדי הבחינות</h2>
         <p>
           <?php
             $p=file_get_contents("paragraphs/exam-dates.html");
@@ -98,8 +94,7 @@
 </div>
 <div class="col-md-4">
   <div class="thumbnail thumbnail-mid">
-    <h2>קהילה וירטואלית
-    </h2>
+    <h2>קהילה וירטואלית</h2>
     <!-- Facebook social plugin -->
     <div class="fb-page" data-href="https://www.facebook.com/%D7%92%D7%9D-%D7%90%D7%A0%D7%99-%D7%90%D7%A7%D7%A1%D7%98%D7%A8%D7%A0%D7%99-467236070127188/?fref=ts&amp;ref=br_tf"
           data-tabs="timeline"
@@ -121,65 +116,48 @@
   <div class="row">
     <div class="col-md-4">
       <div class="thumbnail thumbnail-mid">
-          <div>
-            <h2>
-              מבחנים לדוגמה
-            </h2>
-            <p>
-              <?php
-                $p=file_get_contents("paragraphs/exams.html");
-                echo $p;
-              ?>
-            </p>
-          </div>
+        <div>
+          <h2>
+            מבחנים לדוגמה
+          </h2>
+          <p>
+            <?php
+              $p=file_get_contents("paragraphs/exams.html");
+              echo $p;
+            ?>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail thumbnail-mid">
+        <div>
+          <h2>למידה אונליין</h2>
+          <p>
+            <?php
+              $p=file_get_contents("paragraphs/online.html");
+              echo $p;
+            ?>
+          </p>
+        </div>
       </div>
     </div>
     <div class="col-md-4">
       <div class="thumbnail">
-<!--        <a href="schools.php">-->
-          <div>
-            <h2>
-למידה אונליין
-            </h2>
-            <p>
-              <?php
-                $p=file_get_contents("paragraphs/online.html");
-                echo $p;
-              ?>
-            </p>
-          </div>
-<!--
-          <iframe src="https://www.youtube.com/embed/FR0_sZtCfJ0" width="100%" height="190">
-          </iframe>
--->
-        <!--</a>-->
-      </div>
-    </div>
-    <div class="col-md-4">
-      <div class="thumbnail">
-        <!-- Anchor tag covering both caption and image -->
-        <a href="homeschooling.php">
-          <div>
-            <h2>
-חינוך ביתי
-            </h2>
-            <p>
-              <?php
-                $p=file_get_contents("paragraphs/homeschooling.html");
-                echo $p;
-              ?>
-            </p>
-          </div>
-<!--
-          <img src="images/homeschooling.png" alt="Buffy wants to be homeschooled" class="img-fluid">
--->
-        </a>
-        <!-- Anchor tag ends covering both image and caption -->
+        <div>
+          <h2>חינוך ביתי</h2>
+          <p>
+            <?php
+              $p=file_get_contents("paragraphs/homeschooling.html");
+              echo $p;
+            ?>
+          </p>
+        </div>
       </div>
     </div>
 
-  </div> <!-- /end of 2nd row -->
-</div> <!-- /container -->
+  </div> <!-- / End of 2nd row -->
+</div> <!-- / End of container -->
 
 <!-- Buffer container-->
 <div class="container"></div>
