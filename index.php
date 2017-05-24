@@ -22,7 +22,7 @@
           ">
     <meta name="keywords" content="בגרות,אקסטרנית,איך,עושים,לעשות,אפשר,אקסטרני,אקסטרנים,תלמיד,תלמידה,תלמידים,למידה,עצמאית,לבגרות,תעודת,תעודה,בגרויות,בית,ספר,בצפר,לא,בבית,מחוץ ל,חיצוני,חיצוניים,בחינות,מבחן,בחינת,ציון,מגן,מתכונת,איך עושים בגרות אקסטרנית, איך עושים בגרות לבד,ניגשים,באופן עצמאי,מיקוד,מיקודית">
     <meta name="author" content="Hagar Shilo">
-    <meta property="og:image" content="images/logo.png" />
+    <meta property="og:image" content="http://www.externit.hagarsh.com/logo.png" />
     <meta property="og:url"content="http://www.externit.hagarsh.com" />
     <meta property="og:title" content="מאוד בוגר - בגרות אקסטרנית" />
 
